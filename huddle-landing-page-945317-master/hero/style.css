@@ -1,0 +1,54 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    float: left;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.build-fan {
+    align-content: flex-end;
+    display: grid;
+}
+
+header {
+    width: 100%;
+    background-image: url('images/bg-hero-desktop.svg');
+}
+
+#free-btn {
+    border-radius: 30px;
+    background-color: white;
+    width: 200px;
+}
+
+#start-btn {
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    width: 300px;
+    padding: 10px;
+}
+
+img {
+    width: inherit;
+}
+
+.grow-together, .community-build {
+    margin-top: 150px;
+}
+
+@media width 990px 
