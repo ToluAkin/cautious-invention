@@ -47,9 +47,13 @@ img {
     width: inherit;
 }
 
-.grow-together,
-.community-build {
+.grow-together {
     margin-top: 150px;
+}
+
+.community-build {
+    top: 100px;
+    position: relative;
 }
 
 /* @media width 990px  */
@@ -60,6 +64,15 @@ footer {
 
 ul {
     list-style-type: none;
+}
+
+.logo-white {
+    background-color: white;
+    width: fit-content;
+}
+
+.leggo {
+    margin-top: 200px;
 }
 
 .fa-facebook-f, .fa-twitter, .fa-instagram {
@@ -74,8 +87,4 @@ ul {
 
 .last {
     text-align: right;
-}
-
-.last p {
-    vertical-align: right;
 }
