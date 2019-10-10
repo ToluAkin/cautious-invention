@@ -34,13 +34,12 @@ header {
 #free-btn {
     border-radius: 30px;
     background-color: white;
-    width: 200px;
 }
 
 #start-btn {
     border-radius: 30px;
     background-color: hsl(322, 100%, 66%);
-    width: 300px;
+    width: fit-content;
 }
 
 img {
@@ -71,8 +70,8 @@ ul {
     width: fit-content;
 }
 
-.leggo {
-    margin-top: 200px;
+.jumbo {
+    height: 200px;
 }
 
 .fa-facebook-f, .fa-twitter, .fa-instagram {
@@ -87,4 +86,13 @@ ul {
 
 .last {
     text-align: right;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    footer {
+        text-align: center;
+    }
+    .logo-white {
+        display: inline-flex;
+    }
 }
