@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+
+}
+
+.texts {
+    color: hsl(249, 10%, 26%);
+}
+
+#top-button {
+    background-color: hsl(246, 25%, 77%);
+}
+
+.inline-color {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
