@@ -12,37 +12,43 @@
     <title>Active States Form</title>
 </head>
 <body>
-    <section class="form-body p-5">
-        <div class="row">
-            <div class="col-md-6 texts text-sm-left">
-                <h1>Learn to code by watching others</h1>
-                <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
-                    but understanding how developers think is invaluable.
-                </p>
-            </div>
-            <div class="col-md-6">
-                <button type="button" id="top-button" class="btn btn-block shadow p-3 mb-5 rounded">
-                    Try it free 7 days then $20/mo. thereafter
-                </button>
-                <div class="card">
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                    placeholder="Email Address">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                            </div>
-                            <button type="submit" class="btn btn-success btn-block">Claim your free trial</button>
-                        </form>
-                        <p class="text-muted">By clicking the button, you are agreeing to our <a class="inline-color">Terms and Services</a></p>
+    <section class="form-body">
+        <div class="container p-5">
+            <div class="row">
+                <div class="left-sided col-md-6 text-sm-left">
+                    <h1 class="header">Learn to code by watching others</h1>
+                    <p class="texts">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+                        great,
+                        but understanding how developers think is invaluable.
+                    </p>
+                </div>
+                <div class="col-md-6 right-sided">
+                    <button type="button" id="top-button" class="btn btn-block shadow p-3 mb-5 rounded">
+                        Try it free 7 days then $20/mo. thereafter
+                    </button>
+                    <div class="card bg-white shadow-sm">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="First Name" size="40" autocomplete="on"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Last Name" size="40" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                        placeholder="Email Address" autocomplete="off" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                                        required>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-block">Claim your free trial</button>
+                            </form>
+                            <p class="text-muted text-center">By clicking the button, you are agreeing to our <mark>Terms and
+                                    Services</mark></p>
+                        </div>
                     </div>
                 </div>
             </div>

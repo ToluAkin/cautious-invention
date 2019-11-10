@@ -9,23 +9,30 @@ body {
     line-height: 1.5em;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-}
-
-.form-body {
     background-image: url('images/bg-intro-desktop.png');
-    background-repeat: no-repeat;
-
+    background-size: contain;
+    width: 100%;
 }
 
-.texts {
+.left-sided {
     color: hsl(249, 10%, 26%);
+    padding-top: 150px;
 }
 
 #top-button {
     background-color: hsl(246, 25%, 77%);
 }
 
-.inline-color {
+mark {
     color: hsl(0, 100%, 74%);
     text-decoration: none;
 }
+
+@media (max-width: 767.98px) {
+    .left-sided {
+        padding: 0;
+    }
+    .header {
+        font-size: 30px;
+    }
+ }
